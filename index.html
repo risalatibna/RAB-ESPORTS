@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAB ESPORTS</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #1d1f21, #3a3f44);
+            color: #fff;
+            line-height: 1.6;
+        }
+        a {
+            text-decoration: none;
+            color: #f39c12;
+        }
+        h1, h2 {
+            text-transform: uppercase;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 30px 10px;
+            background: #1c1e22;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        header h1 {
+            font-size: 3em;
+            color: #f39c12;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #d3d3d3;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+            background: rgba(40, 44, 52, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Logo Section */
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo img {
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Management Section */
+        .management, .achievements {
+            margin-bottom: 40px;
+        }
+        .management h2, .achievements h2 {
+            text-align: center;
+            color: #f39c12;
+            margin-bottom: 20px;
+        }
+        .management ul, .achievements ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 0;
+            list-style: none;
+        }
+        .management li, .achievements li {
+            background: #282c34;
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+            width: calc(100% / 3 - 20px);
+            text-align: center;
+        }
+        .management li strong, .achievements li strong {
+            display: block;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+            color: #f39c12;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px 10px;
+            background: #1c1e22;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+            margin-top: 30px;
+        }
+        footer p {
+            font-size: 0.9em;
+            color: #d3d3d3;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .management li, .achievements li {
+                width: calc(100% / 2 - 20px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .management li, .achievements li {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RAB ESPORTS</h1>
+        <p>Founded on 11 April 2021</p>
+    </header>
+    <div class="container">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="team-logo.png" alt="RAB ESPORTS Logo">
+        </div>
+
+        <!-- Management Section -->
+        <div class="management">
+            <h2>Management</h2>
+            <ul>
+                <li><strong>Founder:</strong> Risalat Ibna Obaied</li>
+                <li><strong>Co-Founder:</strong> Aziz Obaied Chowdhury</li>
+                <li><strong>Management Head:</strong> Itachi</li>
+            </ul>
+        </div>
+
+        <!-- Achievements Section -->
+        <div class="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li><strong>Champion:</strong> Aziz BKCDA S3</li>
+                <li><strong>Champion:</strong> Who Will Fuck Aziz S1</li>
+                <li><strong>Runner-up:</strong> Rakin BKCDA S2</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 RAB ESPORTS. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
